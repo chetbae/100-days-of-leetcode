@@ -1,3 +1,4 @@
+# BACKTRACKING SOLUTION
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         # create out array
@@ -25,4 +26,29 @@ class Solution:
             # note: to find unique combinations only, for each search we limit the candidates from i to n, not 0 to n
             self.search(nums[i:], diff-nums[i], path+[nums[i]], ans)
 
+# DP SOLUTION
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        # create dp array for values of 1 to target, inclusive
+        # for each i, dp[i] = array of combinations that add up to i
+        dp = [[] for _ in range(target+1)]
         
+        # run for each candidate
+        for c in candidates:
+
+            # for each candidate, find combinations for each value from c to target
+            # candidates larger than target are ignored
+            for i in range(c, target+1):  
+
+                # add each candidate as a combination for dp[candidate]
+                if i==c:
+                    dp[c].append([c])
+
+                # for each existing combo of sum i-c, adding c is a new combination for i
+                for combo in dp[i-c]:
+
+                    # add new combination for dp[i]
+                    dp[i].append(combo + [c])
+        
+        # after running dp, all possible combinations are stored in dp[target]
+        return dp[target]
