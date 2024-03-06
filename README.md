@@ -63,7 +63,7 @@
 - [x] 1 - **Number of Islands** | Medium | _25 mins_ | Graph
 - [x] 2 - **Rotting Oranges** | Medium | _30 mins_ | Graph
 - [x] 3 - **Search in Rotated Sorted Array** | Medium | _30 mins_ | Binary Search
-- [ ] 4 - **Combination Sum** | Medium | _30 mins_ | Array
+- [x] 4 - **Combination Sum** | Medium | _30 mins_ | Array
 - [ ] 5 - **Permutations** | Medium | _30 mins_ | Recursion
 - [ ] 6 - **Merge Intervals** | Medium | _30 mins_ | Array
 - [ ] 7 - **Lowest Common Ancestor of a Binary Tree** | Medium | _25 mins_ | Binary Tree
