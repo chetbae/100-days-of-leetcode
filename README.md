@@ -65,7 +65,7 @@
 - [x] 3 - **Search in Rotated Sorted Array** | Medium | _30 mins_ | Binary Search
 - [x] 4 - **Combination Sum** | Medium | _30 mins_ | Array
 - [x] 5 - **Permutations** | Medium | _30 mins_ | Recursion
-- [ ] 6 - **Merge Intervals** | Medium | _30 mins_ | Array
+- [x] 6 - **Merge Intervals** | Medium | _30 mins_ | Array
 - [ ] 7 - **Lowest Common Ancestor of a Binary Tree** | Medium | _25 mins_ | Binary Tree
 - [ ] 8 - **Time Based Key-Value Store** | Medium | _35 mins_ | Binary Search
 - [ ] 9 - **Accounts Merge** | Medium | _30 mins_ | Graph
