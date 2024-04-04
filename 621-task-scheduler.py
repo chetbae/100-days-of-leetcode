@@ -53,3 +53,38 @@ class Solution:
             t += 1
         
         return t
+
+# Smart solution with some counting
+class Solution:
+    def leastInterval(self, tasks: List[str], n: int) -> int:
+        # find task(s) with greatest frequency
+        count = [0] * 26
+
+        for task in tasks:
+            count[ord(task) - ord('A')] += 1
+        
+        maxCount = max(count)
+
+        # get number of tasks with same max freq
+        numOfMaxCount = 0
+        for frequency in count:
+            if frequency == maxCount:
+                numOfMaxCount += 1
+        
+        
+        # get number of rests needed between max tasks
+        numOfIntervals = maxCount-1
+
+        # get length of each rest period
+        intervalLength = n - numOfMaxCount + 1
+
+        # get number of cycles in each rest. If multiple maxes, each rest gets eaten up by remaining maxes
+        restCycles = numOfIntervals * intervalLength
+
+        # get remaining tasks
+        remainingTaskCount = len(tasks) - maxCount * numOfMaxCount
+
+        # if total restCycles is greater than remainder task count, some rest periods are needed. if lesser, than all tasks can be run with no breaks
+        requiredRestCycles = max(0, restCycles - remainingTaskCount)
+
+        return len(tasks) + requiredRestCycles
