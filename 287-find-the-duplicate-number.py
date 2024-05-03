@@ -53,3 +53,28 @@ class Solution:
 # RHS means: the slow tag moves (n-1) cycles plus the length from the meetpoint to the entry point.
 
 # So, we can get the entry point when the new tag meet the slow tag.
+
+
+# binary search solution
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        # apply binary search on range of possible values (1,n)
+        # for each mid, count all values in num lesser than or equal to mid
+        # if the count == mid, then there is exactly one value from 1 to mid
+        # if the count > mid, then by the pigeonhole principle, there must be at least one duplicate from 1 to mid
+        # use this intuition to narrow down the range of values
+
+        lo, hi = 1, len(nums)-1
+
+        while lo < hi:
+
+            mid = lo + (hi - lo) // 2
+
+            count = sum(num <= mid for num in nums)
+
+            if count > mid:
+                hi = mid
+            else:
+                lo = mid + 1
+        
+        return lo
