@@ -66,45 +66,45 @@
 - [x] 4 - **Combination Sum** | Medium | _30 mins_ | Array
 - [x] 5 - **Permutations** | Medium | _30 mins_ | Recursion
 - [x] 6 - **Merge Intervals** | Medium | _30 mins_ | Array
-- [ ] 7 - **Lowest Common Ancestor of a Binary Tree** | Medium | _25 mins_ | Binary Tree
-- [ ] 8 - **Time Based Key-Value Store** | Medium | _35 mins_ | Binary Search
-- [ ] 9 - **Accounts Merge** | Medium | _30 mins_ | Graph
-- [ ] 10 - **Sort Colors** | Medium | _25 mins_ | Array
-- [ ] 11 - **Word Break** | Medium | _30 mins_ | Trie
-- [ ] 12 - **Partition Equal Subset Sum** | Medium | _30 mins_ | Dynamic Programming
-- [ ] 13 - **String to Integer (atoi)** | Medium | _25 mins_ | String
-- [ ] 14 - **Spiral Matrix** | Medium | _25 mins_ | Matrix
-- [ ] 15 - **Subsets** | Medium | _30 mins_ | Recursion
-- [ ] 16 - **Binary Tree Right Side View** | Medium | _20 mins_ | Binary Tree
-- [ ] 17 - **Longest Palindromic Substring** | Medium | _25 mins_ | String
+- [x] 7 - **Lowest Common Ancestor of a Binary Tree** | Medium | _25 mins_ | Binary Tree
+- [x] 8 - **Time Based Key-Value Store** | Medium | _35 mins_ | Binary Search
+- [x] 9 - **Accounts Merge** | Medium | _30 mins_ | Graph
+- [x] 10 - **Sort Colors** | Medium | _25 mins_ | Array
+- [x] 11 - **Word Break** | Medium | _30 mins_ | Trie
+- [x] 12 - **Partition Equal Subset Sum** | Medium | _30 mins_ | Dynamic Programming
+- [x] 13 - **String to Integer (atoi)** | Medium | _25 mins_ | String
+- [x] 14 - **Spiral Matrix** | Medium | _25 mins_ | Matrix
+- [x] 15 - **Subsets** | Medium | _30 mins_ | Recursion
+- [x] 16 - **Binary Tree Right Side View** | Medium | _20 mins_ | Binary Tree
+- [x] 17 - **Longest Palindromic Substring** | Medium | _25 mins_ | String
 
 ## Week 4
 
-- [ ] 1 - **Unique Paths** | Medium | _20 mins_ | Dynamic Programming
-- [ ] 2 - **Construct Binary Tree from Preorder and Inorder Traversal** | Medium | _25 mins_ | Binary Tree
-- [ ] 3 - **Container With Most Water** | Medium | _35 mins_ | Array
-- [ ] 4 - **Letter Combinations of a Phone Number** | Medium | _30 mins_ | Recursion
-- [ ] 5 - **Word Search** | Medium | _30 mins_ | Graph
-- [ ] 6 - **Find All Anagrams in a String** | Medium | _30 mins_ | String
-- [ ] 7 - **Minimum Height Trees** | Medium | _30 mins_ | Graph
-- [ ] 8 - **Task Scheduler** | Medium | _35 mins_ | Heap
-- [ ] 9 - **LRU Cache** | Medium | _30 mins_ | Linked List
-- [ ] 10 - **Kth Smallest Element in a BST** | Medium | _25 mins_ | Binary Search Tree
-- [ ] 11 - **Daily Temperatures** | Medium | _30 mins_ | Stack
-- [ ] 12 - **House Robber** | Medium | _25 mins_ | Dynamic Programming
-- [ ] 13 - **Gas Station** | Medium | _30 mins_ | Array
-- [ ] 14 - **Next Permutation** | Medium | _30 mins_ | Recursion
-- [ ] 15 - **Valid Sudoku** | Medium | _35 mins_ | Matrix
-- [ ] 16 - **Group Anagrams** | Medium | _25 mins_ | String
+- [x] 1 - **Unique Paths** | Medium | _20 mins_ | Dynamic Programming
+- [x] 2 - **Construct Binary Tree from Preorder and Inorder Traversal** | Medium | _25 mins_ | Binary Tree
+- [x] 3 - **Container With Most Water** | Medium | _35 mins_ | Array
+- [x] 4 - **Letter Combinations of a Phone Number** | Medium | _30 mins_ | Recursion
+- [x] 5 - **Word Search** | Medium | _30 mins_ | Graph
+- [x] 6 - **Find All Anagrams in a String** | Medium | _30 mins_ | String
+- [x] 7 - **Minimum Height Trees** | Medium | _30 mins_ | Graph
+- [x] 8 - **Task Scheduler** | Medium | _35 mins_ | Heap
+- [x] 9 - **LRU Cache** | Medium | _30 mins_ | Linked List
+- [x] 10 - **Kth Smallest Element in a BST** | Medium | _25 mins_ | Binary Search Tree
+- [x] 11 - **Daily Temperatures** | Medium | _30 mins_ | Stack
+- [x] 12 - **House Robber** | Medium | _25 mins_ | Dynamic Programming
+- [x] 13 - **Gas Station** | Medium | _30 mins_ | Array
+- [x] 14 - **Next Permutation** | Medium | _30 mins_ | Recursion
+- [x] 15 - **Valid Sudoku** | Medium | _35 mins_ | Matrix
+- [x] 16 - **Group Anagrams** | Medium | _25 mins_ | String
 
 ## Week 5
 
-- [ ] 1 - **Maximum Product Subarray** | Medium | _30 mins_ | Dynamic Programming
-- [ ] 2 - **Design Add and Search Words Data Structure** | Medium | _35 mins_ | Trie
-- [ ] 3 - **Pacific Atlantic Water Flow** | Medium | _30 mins_ | Graph
-- [ ] 4 - **Remove Nth Node From End of List** | Medium | _20 mins_ | Linked List
+- [x] 1 - **Maximum Product Subarray** | Medium | _30 mins_ | Dynamic Programming
+- [x] 2 - **Design Add and Search Words Data Structure** | Medium | _35 mins_ | Trie
+- [x] 3 - **Pacific Atlantic Water Flow** | Medium | _30 mins_ | Graph
+- [x] 4 - **Remove Nth Node From End of List** | Medium | _20 mins_ | Linked List
 - [ ] 5 - **Shortest Path to Get Food** | Medium | _30 mins_ | Graph
-- [ ] 6 - **Find the Duplicate Number** | Medium | _20 mins_ | Binary
+- [x] 6 - **Find the Duplicate Number** | Medium | _20 mins_ | Binary
 - [ ] 7 - **Top K Frequent Words** | Medium | _30 mins_ | Heap
 - [ ] 8 - **Longest Increasing Subsequence** | Medium | _30 mins_ | Dynamic Programming
 - [ ] 9 - **Graph Valid Tree** | Medium | _30 mins_ | Graph
