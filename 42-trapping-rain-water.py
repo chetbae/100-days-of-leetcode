@@ -38,8 +38,5 @@ class Solution:
                 right -= 1
         
         return water
-
-        
-        return water
             
         
