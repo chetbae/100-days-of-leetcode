@@ -45,3 +45,22 @@ class Solution:
                 r += 1
         
         return arr[start:stop]
+
+
+# Heap solution is O(n * log(min(k,n))) time complexity
+class Solution:
+    def topKFrequent(self, words: List[str], k: int) -> List[str]:
+        wordCount = collections.Counter(words)
+
+        q = [(-wordCount[word], word) for word in wordCount]
+
+        heapq.heapify(q)
+        topkwords = []
+
+        n = min(k, len(q))
+
+        for _ in range(n):
+            _, word = heapq.heappop(q)
+            topkwords.append(word)
+        
+        return topkwords
